@@ -693,8 +693,8 @@ int main(int argc, char *argv[]) {
     JSLFA(rc, Righthex[x]);
     memsum += rc;
   }
-  printf("%zu lines written\n", linecnt);
-  printf("%zu total memory used\n", memsum);
+  printf("%lu lines written\n", linecnt);
+  printf("%lu total memory used\n", memsum);
 
   return (0);
 }
