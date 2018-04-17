@@ -10,8 +10,18 @@ The main idea behind Chasm is to reuse password patterns in a way that is likely
 ![chasm3](https://user-images.githubusercontent.com/7359229/38832204-6ff46eb6-4187-11e8-81f2-e75f8ed43571.jpg)
 ![chasm4](https://user-images.githubusercontent.com/7359229/38832205-70064fbe-4187-11e8-92cc-fea5531072af.jpg)
 
+## Requirements
+* libjudy
+On debian based systems use:
+`$ sudo apt install libjudy-dev`
+
+## Building
+`$ make`
+Or get the precompiled [binaries](https://github.com/Cynosureprime/chasm/releases).
+They are statically linked against libjudy.
+
 ### Chasm usage
-`chasm -l 30 -k 2 < dictionary.txt`
+`$ chasm -l 30 -k 2 out/chasm < dictionary.txt`
 
 ## Some user definable options that Chasm supports:
 - -a (Analyze frequency, will output the frequency of the split part)
