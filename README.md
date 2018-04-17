@@ -11,12 +11,12 @@ The main idea behind Chasm is to reuse password patterns in a way that is likely
 ![chasm4](https://user-images.githubusercontent.com/7359229/38832205-70064fbe-4187-11e8-92cc-fea5531072af.jpg)
 
 ## Requirements
-* libjudy
-On debian based systems use:
+* libjudy  
+On debian based systems use:  
 `$ sudo apt install libjudy-dev`
 
 ## Building
-`$ make`
+`$ make`  
 Or get the precompiled [binaries](https://github.com/Cynosureprime/chasm/releases).
 They are statically linked against libjudy.
 
